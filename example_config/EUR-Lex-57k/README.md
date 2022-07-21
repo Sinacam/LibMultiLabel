@@ -5,6 +5,7 @@ Note: This dataset is called **EURLex-4.3K** in [The Extreme Classification Repo
 
 ## Benchmark
 The best model is selected by **RP@5** on validation set then evaluated on test set.
+For linear methods, the training and validation dataset is combined.
 
 |           Method |                                                                              Reference | Macro-F1 | Micro-F1 |     P@1 |     P@5 | **RP@5** |  nDCG@5 |                     Cfg |          Time |
 | ---------------: | -------------------------------------------------------------------------------------: | -------: | -------: | ------: | ------: | -------: | ------: | ----------------------: | ------------: |
