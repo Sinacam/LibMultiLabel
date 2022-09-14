@@ -1,12 +1,11 @@
-name: Python package
+name: Basic Test
 
 on:
-  push:
-    branches:
-      - master
+  pull_request:
+    types: [opened]
 
 jobs:
-  build:
+  test:
 
     runs-on: ubuntu-latest
     strategy:
