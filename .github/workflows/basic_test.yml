@@ -2,7 +2,8 @@ name: Basic Test
 
 on:
   pull_request:
-    types: [opened]
+    branches:
+      - master
 
 jobs:
   test:
